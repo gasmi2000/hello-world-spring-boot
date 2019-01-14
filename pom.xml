@@ -46,7 +46,7 @@
 			 <!--
 		   <dockerHost>tcp://docker-api:2375</dockerHost> 
 -->
-	<dockerHost>tcp://172.18.0.2:5000</dockerHost> 
+	<dockerHost>http://172.18.0.2:5000</dockerHost> 
 
 	 
         <images>
