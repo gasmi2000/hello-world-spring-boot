@@ -46,8 +46,8 @@
 			 <!--
 		   <dockerHost>tcp://docker-api:2375</dockerHost> 
 -->
-	<dockerHost>http://172.18.0.2:5000</dockerHost> 
-
+	 
+<registry>172.18.0.2:5000</registry>
 	 
         <images>
           <image>
@@ -56,6 +56,10 @@
               <dockerFileDir>${project.basedir}</dockerFileDir>
             </build>
           </image>
+		
+   
+		
+		
         </images>
       </configuration>
       </plugin>
