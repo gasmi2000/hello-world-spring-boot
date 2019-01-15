@@ -46,7 +46,7 @@
         <version>3.5.41</version>
 		 <configuration>
 		
-		   <dockerHost>tcp://docker-api:2375</dockerHost> 
+		  <dockerHost>tcp://docker-api:2375</dockerHost> 
 
 	 <!--	 
 <registry>172.18.0.2:5000</registry>
