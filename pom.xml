@@ -49,18 +49,16 @@
 	 
 <registry>172.18.0.2:5000</registry>
 	 
-        <images>
+			 
+     <images>
           <image>
             <name>arquillian/age-checker:${project.version}</name>
             <build>
               <dockerFileDir>${project.basedir}</dockerFileDir>
             </build>
           </image>
-		
-   
-		
-		
-        </images>
+	
+     </images>
       </configuration>
       </plugin>
 	  
