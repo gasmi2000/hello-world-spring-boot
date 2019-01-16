@@ -56,7 +56,7 @@
 		   <!--
 	  <registry>registry:5000</registry>
 -->
-            <name>spring_hello_world:${project.version}</name>
+            <name>registry:5000/spring_hello_world:${project.version}</name>
 		 
             <build>
               <dockerFileDir>${project.basedir}</dockerFileDir>
