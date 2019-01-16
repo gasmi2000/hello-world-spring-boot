@@ -53,8 +53,11 @@
 			 
      <images>
           <image>
-            <name>arquillian/age-checker:${project.version}</name>
-		  <registry>registry:5000</registry>
+		   <!--
+	  <registry>registry:5000</registry>
+-->
+            <name>registry:5000/spring_hello_world:${project.version}</name>
+		 
             <build>
               <dockerFileDir>${project.basedir}</dockerFileDir>
             </build>
