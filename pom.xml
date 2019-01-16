@@ -47,7 +47,7 @@
         <version>3.5.41</version>
 		 <configuration>
 		
-		  <dockerHost>tcp://0.0.0.0:5000</dockerHost> 
+		  <dockerHost>tcp://127.0.0.1:5000</dockerHost> 
  	<!-- 
 			 <registry>registry:5000</registry>
 			  -->
