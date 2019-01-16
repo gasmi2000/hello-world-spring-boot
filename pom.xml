@@ -15,8 +15,7 @@
 <version>2.1.1.RELEASE</version>
     </parent>
 
-	
-	
+		
 	    <!-- Additional lines to be added here... -->
     <dependencies>
         <dependency>
