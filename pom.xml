@@ -48,7 +48,6 @@
 		  <dockerHost>tcp://docker-api:2375</dockerHost> 
  -->
 		 
-
 			 
      <images>
           <image>
