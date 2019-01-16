@@ -48,12 +48,13 @@
 		  <dockerHost>tcp://docker-api:2375</dockerHost> 
  -->
 		 
-<registry>registry:5000</registry>
+
 	
 			 
      <images>
           <image>
             <name>arquillian/age-checker:${project.version}</name>
+		  <registry>registry:5000</registry>
             <build>
               <dockerFileDir>${project.basedir}</dockerFileDir>
             </build>
