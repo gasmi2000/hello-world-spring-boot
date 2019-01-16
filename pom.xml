@@ -47,9 +47,9 @@
         <artifactId>fabric8-maven-plugin</artifactId> 
         <version>3.5.41</version>
 		 <configuration>
-		 
+		<!-- 
 		  <dockerHost>tcp://docker-api:2375</dockerHost> 
- 	 
+ 	 -->
 	
 			 
      <images>
