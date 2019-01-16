@@ -51,7 +51,8 @@
 		  <dockerHost>tcp://docker-api:2375</dockerHost> 
  	 
 	  <registry>registry:5000</registry>
-
+<removeAll>true</removeAll>
+            <showLogs>true</showLogs>
 			 
      <images>
           <image>
