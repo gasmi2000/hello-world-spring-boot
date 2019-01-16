@@ -50,7 +50,7 @@
 		 
 		  <dockerHost>tcp://docker-api:2375</dockerHost> 
  	 
- <pushRegistry>registry:5000</pushRegistry>
+
 			 
      <images>
           <image>
