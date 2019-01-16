@@ -14,8 +14,7 @@
 <version>2.1.1.RELEASE</version>
     </parent>
 
-	
-    <!-- Additional lines to be added here... -->
+	    <!-- Additional lines to be added here... -->
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
